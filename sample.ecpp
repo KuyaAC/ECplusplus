@@ -1,0 +1,13 @@
+DISPLAY("HELLO WELCOME TO EC++ PL")
+DISPLAY("What is your name ?")
+VAR name = READ()
+DISPLAY("Your Name is:")
+DISPLAY(name)
+DISPLAY("Can you do Math ?")
+DISPLAY("Enter 1st Number:")
+VAR numOne = READ_INT()
+DISPLAY("Enter 2st Number:")
+VAR numTwo = READ_INT()
+VAR numThree = numOne + numTwo
+DISPLAY("Output:")
+DISPLAY(numThree)
